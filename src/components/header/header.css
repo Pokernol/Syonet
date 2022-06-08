@@ -1,0 +1,36 @@
+.app__header{
+    width: 100%;   
+}
+.app__headerWrapper {
+    padding: 0 10px 0 10px ;
+    display: flex;
+}
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px ;
+    width: 500px;
+    margin: 0 0 0 730px;
+}
+.icons_header {
+    display: flex;
+}
+.menu_lateral {
+    margin: 0 0 10px;
+    width: 50px ;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu_map {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    outline: none;
+    margin: 0 150px 0 10px ;
+    height: 600px;
+}
